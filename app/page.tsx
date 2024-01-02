@@ -1,7 +1,5 @@
-import AnimeCard, { AnimeProp } from "@/components/AnimeCard"
 import LoadMore from "../components/LoadMore"
 import { fetchAnime } from "./action"
-// import { data } from "./_data"
 
 async function Home() {
   const data = await fetchAnime(1)
