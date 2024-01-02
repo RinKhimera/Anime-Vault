@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export interface AnimeProp {
+export type AnimeProp = {
   id: string
   name: string
   image: {
@@ -12,7 +12,7 @@ export interface AnimeProp {
   score: string
 }
 
-interface Prop {
+type Prop = {
   anime: AnimeProp
   index: number
 }
